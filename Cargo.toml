@@ -1,0 +1,17 @@
+
+[package]
+name = "rust_os"
+version = "0.1.0"
+edition = "2018"
+authors =["William Muchui williammuchui584@gmail.com"]
+
+#profile used for cargo build
+[profile.dev]
+panic ="abort"
+
+#profile used for cargo build --release
+[profile.release]
+panic = "abort"
+
+[dependencies]
+
